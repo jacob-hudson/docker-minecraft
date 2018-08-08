@@ -1,3 +1,7 @@
+FROM ubuntu:latest
+
+MAINTAINER Jacob A. Hudson <jacob.alan.hudson@gmail.com>
+
 ENV MINECRAFT_VERSION 1.13
 
 RUN apt-get update && apt-get install -y default-jre-headless && apt-get install -y net-tools
